@@ -23,7 +23,8 @@ function processData(req, res, next) {
         .then(executeRScript)
         .then(sendRes)
         .then(function(dataObj) {
-            res.send(200, dataObj.resObj);
+            // res.send(200, dataObj.resObj);
+            res.status(200).send(dataObj.resObj);
         })
         .catch(function (err) {
             console.error("Yikes!", err);
@@ -61,16 +62,13 @@ function processData(req, res, next) {
         dataObj = dataObj || {};
 
         csv.fileToJSON(csvOutFile, function(data){
-                console.log(data);
+                // console.log(data);
                 dataObj.resObj = data;
                 deferred.resolve(dataObj);
             });
 
         return deferred.promise;
     }
-
-
-
 }
 
 
