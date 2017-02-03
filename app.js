@@ -1,13 +1,13 @@
+let routes = require("./routes.js");
 let express = require('express');
 let app = express();
-let env = process.env;
 const exec = require('child_process').exec;
 let csvInputFile = 'csvData/in/sample.csv';
 let csvOutFile = 'csvData/out/sampleEdited.csv';
 
 let rCommand = 'Rscript R/csvUtil.r ' + csvInputFile + ' ' + csvOutFile;
 
-app.get('/*', (req, res) => {
+app.get('/sample', (req, res) => {
     exec(rCommand, (error, stdout, stderr) => {
         if (error) {
             console.error(`exec error: ${error}`);
@@ -19,7 +19,8 @@ app.get('/*', (req, res) => {
     });
 });
 
+routes(app);
 
 app.listen(3000, () => {
-    console.log('Example app listening on port 80!');
+    console.log('Example app listening on port 3000!');
 });
