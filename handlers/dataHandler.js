@@ -1,5 +1,6 @@
 const exec = require('child_process').exec;
-const csv = require('csv-tools');
+const csvtojson = require('csvtojson');
+const json2csv = require("json2csv");
 const fs = require("fs");
 const promisify = require("es6-promisify");
 let Q = require('q');
@@ -17,7 +18,7 @@ function processData(req, res, next) {
     let csvOutFile = 'csvData/out/sampleEdited.csv';
 
     // convert json to csv -- done
-    let csvData = csv.fromJSON(jsonData);
+    let csvData = json2csv({ data: jsonData});
 
     writeFile(csvInputFile, csvData)
         .then(executeRScript)
@@ -59,13 +60,23 @@ function processData(req, res, next) {
         'use strict';
 
         let deferred = Q.defer();
+        let jsonFromCsv = [];
         dataObj = dataObj || {};
 
-        csv.fileToJSON(csvOutFile, function(data){
-                // console.log(data);
-                dataObj.resObj = data;
+
+        csvtojson()
+            .fromFile(csvOutFile)
+            .on('json',(jsonObj)=>{
+                // combine csv header row and csv line to a json object
+                // jsonObj.a ==> 1 or 4
+                jsonFromCsv.push(jsonObj);
+            })
+            .on('done',(error)=>{
+                dataObj.resObj = jsonFromCsv;
                 deferred.resolve(dataObj);
             });
+
+
 
         return deferred.promise;
     }
