@@ -1,3 +1,2 @@
-firstName,lastName
-"12","CD"
-"34","GH"
+"name","email"
+"Test","test@test.com"
