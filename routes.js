@@ -1,8 +1,9 @@
 // let ErrorHandler = require('../handlers/errorHandler').errorHandler;
-let bodyParser = require('body-parser');
-let errorHandler = require("./handlers/errorHandler.js").errorHandler;
-let processDataHandler = require("./handlers/dataHandler.js");
-let cors = require("cors");
+const bodyParser = require('body-parser');
+const errorHandler = require("./handlers/errorHandler.js").errorHandler;
+const processDataHandler = require("./handlers/dataHandler.js");
+const eUtilsHandler = require('./handlers/eUtilsHandler.js');
+const cors = require("cors");
 
 function routes(app) {
     'use strict';
@@ -19,7 +20,8 @@ function routes(app) {
 
     app.post('/processData', processDataHandler);
 
-}
+    app.get('/search-ncbi', eUtilsHandler);
 
+}
 
 module.exports = exports = routes;
