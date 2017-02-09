@@ -4,10 +4,16 @@ const eutils = require('./../ncbi-eutils/src/core-utils');
  * Queries NCBI DB by using eUtils library
  */
 function getSearchResult(req, res, next) {
+    var org =  req.body.org? ' AND ' + req.body.org : '';
+    var exp = req.body.exp? ' AND ' + req.body.exp : '';
+    var searchData = req.body.disease? req.body.disease + org  + exp :
+        req.body.drugs +  + org  + exp;
+
+    console.log('searchData for', searchData);
 
     eutils.esearch({
             db: 'gds',
-            term: 'chordoma'
+            term: searchData
         })
         .then((d) => {
             //supported eutil parameters can be added like this

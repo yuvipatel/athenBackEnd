@@ -20,7 +20,7 @@ function routes(app) {
 
     app.post('/processData', processDataHandler);
 
-    app.get('/search-ncbi', eUtilsHandler);
+    app.post('/search-ncbi', eUtilsHandler);
 
 }
 
