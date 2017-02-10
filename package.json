@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "BackEnd parts for Athena MVP",
   "main": "start.js",
+  "repository": "https://github.com/yuvipatel/athenaBackEnd",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --use_strict start.js"
@@ -20,9 +21,10 @@
     "express": "^4.14.1",
     "json2csv": "^3.7.3",
     "jsonwebtoken": "^5.4.0",
+    "lodash.assign": "^3.2.0",
+    "ncbi-eutils": "^0.3.0",
     "q": "^1.4.1",
-   "xml2js": "^0.4.9",
-"lodash.assign": "^3.2.0"
+    "xml2js": "^0.4.9"
   },
   "author": "",
   "license": "ISC"

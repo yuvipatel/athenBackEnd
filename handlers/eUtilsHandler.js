@@ -1,13 +1,13 @@
-const eutils = require('./../ncbi-eutils/src/core-utils');
+const eutils = require('ncbi-eutils');
 
 /**
  * Queries NCBI DB by using eUtils library
  */
 function getSearchResult(req, res, next) {
-    var org =  req.body.org? ' AND ' + req.body.org : '';
-    var exp = req.body.exp? ' AND ' + req.body.exp : '';
-    var searchData = req.body.disease? req.body.disease + org  + exp :
-        req.body.drugs +  + org  + exp;
+    let org = req.body.org ? ' AND ' + req.body.org : '';
+    let exp = req.body.exp ? ' AND ' + req.body.exp : '';
+    let searchData = req.body.disease ? req.body.disease + org + exp :
+        req.body.drugs + +org + exp;
 
     console.log('searchData for', searchData);
 
