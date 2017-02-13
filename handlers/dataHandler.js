@@ -5,6 +5,10 @@ const fs = require("fs");
 const promisify = require("es6-promisify");
 let Q = require('q');
 
+// tagged result set
+const alzheimerTaggedData = require(`./../data/alzheimerTaggedData.js`);
+const tamoxifenTaggedData = require(`./../data/tamoxifenTaggedData.js`);
+
 const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
 
@@ -14,22 +18,30 @@ let csvOutputDir = "../csvData/out/";
 function processData(req, res, next) {
     let jsonData = req.body || {};
 
-    let csvInputFile = 'csvData/in/sample.csv';
-    let csvOutFile = 'csvData/out/sampleEdited.csv';
 
-    // convert json to csv -- done
-    let csvData = json2csv({ data: jsonData});
+    // Handling for fixed responses for alzhiemer and tamoxifen
+    if (jsonData[0].type === 'fixedResult') {
+        const resData = (jsonData[0].data === 'alzheimer') ? alzheimerTaggedData : tamoxifenTaggedData;
+        res.status(200).send(resData);
+    } else {
 
-    writeFile(csvInputFile, csvData)
-        .then(executeRScript)
-        .then(sendRes)
-        .then(function(dataObj) {
-            // res.send(200, dataObj.resObj);
-            res.status(200).send(dataObj.resObj);
-        })
-        .catch(function (err) {
-            console.error("Yikes!", err);
-        });
+        let csvInputFile = 'csvData/in/sample.csv';
+        let csvOutFile = 'csvData/out/sampleEdited.csv';
+
+        // convert json to csv -- done
+        let csvData = json2csv({ data: jsonData });
+
+        writeFile(csvInputFile, csvData)
+            .then(executeRScript)
+            .then(sendRes)
+            .then(function(dataObj) {
+                // res.send(200, dataObj.resObj);
+                res.status(200).send(dataObj.resObj);
+            })
+            .catch(function(err) {
+                console.error("Yikes!", err);
+            });
+    }
 
     // execute r command on file
     // send output csv file from r command as response.
@@ -66,12 +78,12 @@ function processData(req, res, next) {
 
         csvtojson()
             .fromFile(csvOutFile)
-            .on('json',(jsonObj)=>{
+            .on('json', (jsonObj) => {
                 // combine csv header row and csv line to a json object
                 // jsonObj.a ==> 1 or 4
                 jsonFromCsv.push(jsonObj);
             })
-            .on('done',(error)=>{
+            .on('done', (error) => {
                 dataObj.resObj = jsonFromCsv;
                 deferred.resolve(dataObj);
             });
