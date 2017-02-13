@@ -3,7 +3,7 @@ const tamoxifenData = {
     queryFor: 'tamoxifen',
     data: [{
 
-        "gse": "gse71310",
+        "GSE_ID": "gse71310",
         "title": "rna-seq analysis of gfi1b ko megakaryocytes",
         "summary": "megakaryocytes isolated from gfi1b flox/flox mice carrying pf4-cre or not",
         "overall_design": " and from gfi1b flox/flox mice carrying rosa-cre-ert with or without tamoxifen injection were analyzed for differential expression by rna-seq",
@@ -13,7 +13,7 @@ const tamoxifenData = {
         "pubmed_id": "expression profiling by high throughput sequencing"
     }, {
 
-        "gse": "gse77498",
+        "GSE_ID": "gse77498",
         "title": "induced loss of p53 in mammary luminal cells leads to their clonal expansion and facilitates development of mammary tumours with loss of luminal identity",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -23,7 +23,7 @@ const tamoxifenData = {
         "pubmed_id": "expression profiling by array;genome variation profiling by snp array"
     }, {
 
-        "gse": "gse77496",
+        "GSE_ID": "gse77496",
         "title": "microarray expression profiling data for trp53-null mammary epithelial cells and tumors from a mouse model with a k8+ luminal cell origin",
         "summary": "mammary epithelium is hierarchically organized",
         "overall_design": " with multipotent basal mammary stem cells (mascs) producing both luminal and basal cells during development or upon transplantation. recent studies suggested that most breast cancers might originate from luminal cells",
@@ -33,7 +33,7 @@ const tamoxifenData = {
         "pubmed_id": " its inactivating mutations are found in most triple-negative breast cancers"
     }, {
 
-        "gse": "gse80354",
+        "GSE_ID": "gse80354",
         "title": "gata6 promotes hair follicle matrix progenitor cell renewal by genome maintenance via edaradd/nf-b",
         "summary": "cell proliferation is essential to rapid tissue growth and repair",
         "overall_design": " but is inherently associated with considerable genome damage that cells must efficiently prevent or fix to prevent cell cycle arrest. here",
@@ -43,7 +43,7 @@ const tamoxifenData = {
         "pubmed_id": " important for dna-damage repair and stress response in general"
     }, {
 
-        "gse": "gse59557",
+        "GSE_ID": "gse59557",
         "title": "expression data of in vitro generated regulatory t cells overexpressing e47",
         "summary": "e47 represses foxp3 transcription",
         "overall_design": " albeit indirectly through the activation of unknown negative regulatory of foxp3 transcription.;to identify target genes of e47 in regulatory t cells",
@@ -53,7 +53,7 @@ const tamoxifenData = {
         "pubmed_id": "gpl1261"
     }, {
 
-        "gse": "gse78045",
+        "GSE_ID": "gse78045",
         "title": "p53 is a critical regulator of airway epithelial progenitor cell homeostasis.",
         "summary": "how progenitor cells regulate quiescence and differentiation is poorly understood. here",
         "overall_design": " we demonstrate that the tumor suppressor p53 regulates both proliferation and differentiation of club progenitor cells in the airway epithelium. we show that p53 loss decreases ciliated cell differentiation and increases the proliferative capacity of club progenitors",
@@ -63,7 +63,7 @@ const tamoxifenData = {
         "pubmed_id": " we expose heterogeneity within airway epithelial progenitor cells and found that cell cycle regulators"
     }, {
 
-        "gse": "gse71514",
+        "GSE_ID": "gse71514",
         "title": "arid1a loss impairs enhancer-mediated gene regulation and drives colon cancer in mice",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -73,7 +73,7 @@ const tamoxifenData = {
         "pubmed_id": "genome binding/occupancy profiling by high throughput sequencing;expression profiling by high throughput sequencing"
     }, {
 
-        "gse": "gse71513",
+        "GSE_ID": "gse71513",
         "title": "arid1a loss impairs enhancer-mediated gene regulation and drives colon cancer in mice [primary cells_rna-seq]",
         "summary": "genes encoding subunits of swi/snf chromatin remodeling complexes are collectively mutated in ~20% of all human cancers. although arid1a is the most frequent target of mutations",
         "overall_design": " the mechanism by which its inactivation promotes tumorigenesis is unclear. here",
@@ -83,7 +83,7 @@ const tamoxifenData = {
         "pubmed_id": " crucial gatekeepers in common forms of intestinal cancer. arid1a normally targets swi/snf complexes to enhancers"
     }, {
 
-        "gse": "gse71512",
+        "GSE_ID": "gse71512",
         "title": "arid1a loss impairs enhancer-mediated gene regulation and drives colon cancer in mice [primary cells_chip-seq]",
         "summary": "genes encoding subunits of swi/snf chromatin remodeling complexes are collectively mutated in ~20% of all human cancers. although arid1a is the most frequent target of mutations",
         "overall_design": " the mechanism by which its inactivation promotes tumorigenesis is unclear. here",
@@ -93,7 +93,7 @@ const tamoxifenData = {
         "pubmed_id": " crucial gatekeepers in common forms of intestinal cancer. arid1a normally targets swi/snf complexes to enhancers"
     }, {
 
-        "gse": "gse80166",
+        "GSE_ID": "gse80166",
         "title": "rna sequencing data in differentiating mouse embryonic stem cells",
         "summary": "es cell lines were established from mouse embryos",
         "overall_design": " which were homozygous for the trim33-flox allele and carried the ubccreert2 transgene. cells were cultured without feeder cells in the presence of lif and 2i. embryoid bodies (ebs) were generated using the atcc protocol on low attachment dishes under differentiating conditions. ebs were induced with tamoxifen at day 4 and harvested at day 7.",
@@ -103,7 +103,7 @@ const tamoxifenData = {
         "pubmed_id": "expression profiling by high throughput sequencing"
     }, {
 
-        "gse": "gse79889",
+        "GSE_ID": "gse79889",
         "title": "qki's function in neural stem cells (nscs) and pre-malignant nscs (pm-nscs) and transcriptome of nestin-creert2 ptenloxp/loxp p53loxp/loxp qkiloxp/loxp (qpp) mouse glioblastoma",
         "summary": "this study is to determine the impact of qki deletion on transcriptomes of mouse nsc and pm-nsc and to analyze the transcriptomic profiles of nestin-creert2 ptenloxp/loxp p53loxp/loxp qkiloxp/loxp (qpp) mouse glioblastoma and to determine which subtypes these tumors belong to",
         "overall_design": "nscs of different genetic background (nestin-creert2 qki+/+",
@@ -113,7 +113,7 @@ const tamoxifenData = {
         "pubmed_id": " pm-nscs and brain tumors were extracted by rnasey kit and sent for sequencing with llumina hiseq2000 sequencer."
     }, {
 
-        "gse": "gse84134",
+        "GSE_ID": "gse84134",
         "title": "qki deficiency maintains stemness of glioma stem cells in suboptimal environment by downregulating endolysosomal degradation",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -123,7 +123,7 @@ const tamoxifenData = {
         "pubmed_id": "na"
     }, {
 
-        "gse": "gse75372",
+        "GSE_ID": "gse75372",
         "title": "foxa1 overexpression mediates endocrine resistance by increasing il-8 in oestrogen receptor-positive breast cancer",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -133,7 +133,7 @@ const tamoxifenData = {
         "pubmed_id": "27791031"
     }, {
 
-        "gse": "gse75369",
+        "GSE_ID": "gse75369",
         "title": "gene expression profiling of tamoxifen-resistant breast cancer mcf7l cells",
         "summary": "endocrine resistance is a major obstacle in treating estrogen receptor a (er)-positive (+) breast cancer.  in order to better understand the mechanism of endocrine resistance",
         "overall_design": " we established a stable tamoxifen-resistant (tamr) mcf7l cell model by culturing the parental (p) mcf7l cells in the presence of 100 nm of 4-hydroxytamoxifen (4ht) for over 6 months.  to characterize the transcriptomic profiles in these cells",
@@ -143,7 +143,7 @@ const tamoxifenData = {
         "pubmed_id": "2"
     }, {
 
-        "gse": "gse75329",
+        "GSE_ID": "gse75329",
         "title": "gene expression profiling of parental and tamr mcf7 cells after knock-down of er or foxa1 or overexpresion of foxa1",
         "summary": "gene expression profiles (rna seq of parental mcf7 cells and tamoxifen resistant cells after er or foxa1 knock down and after overexpression of foxa1 in parenatl cells).",
         "overall_design": "rna-seq data of mcf cells and tamoxifen resistant cell lines after er knock-down/foxa1 knock down or foxa1 overexpression.",
@@ -153,7 +153,7 @@ const tamoxifenData = {
         "pubmed_id": "27791031"
     }, {
 
-        "gse": "gse75201",
+        "GSE_ID": "gse75201",
         "title": "chip-seq of foxa1 in parental mcf7 cells and tamoxifen resistant mcf7 cells",
         "summary": "chip sequencing of foxa1 in mcf7 cells and tamoxifen resistant mcf7 cells",
         "overall_design": "chip sequencing for foxa1 in mcf7 cells and tamoxifen resistant derivatives",
@@ -163,7 +163,7 @@ const tamoxifenData = {
         "pubmed_id": "27791031"
     }, {
 
-        "gse": "gse53734",
+        "GSE_ID": "gse53734",
         "title": "disruption of estrogen signaling enhances invasiveness of breast cancer cells by attenuating a her2-independent gene repression program",
         "summary": "disruption of estrogen signaling enhances invasiveness of breast cancer cells by attenuating a her2-independent gene repression program",
         "overall_design": "in er+ breast cancer cells",
@@ -173,7 +173,7 @@ const tamoxifenData = {
         "pubmed_id": " zr-75-1 (er+/pr+) and bt474 (er+/pr+/her2 amplified) cells hormone depletion or tamoxifen treatment restored gene expression and invasiveness that were inhibited by e2."
     }, {
 
-        "gse": "gse77867",
+        "GSE_ID": "gse77867",
         "title": "combined blockade of met and egfr abolishes liver regeneration",
         "summary": "receptor tyrosine kinases met and egfr are critically involved in initiation of liver regeneration. other cytokines and signaling molecules also help in the early part of the process.  regeneration employs effective redundancy schemes to compensate for missing signals. elimination of any single signaling pathway only delays but does not abolish the process. our present study",
         "overall_design": " however",
@@ -183,7 +183,7 @@ const tamoxifenData = {
         "pubmed_id": "systemic inhibition met-egfr signaling pathway in mice liver regeneration in mice was carried out by using a tamoxifen inducible system egfr was inhibited by using canertinib added to diet. partial hepatectomy was carried out and liver tissue harvested at defined time points and gene arrays carried out."
     }, {
 
-        "gse": "gse62613",
+        "GSE_ID": "gse62613",
         "title": "nuclear tigar mediates an epigenetic-metabolic loop via nrf2 for cancer therapeutics resistance",
         "summary": "epigenetic and metabolic reprogrammings are implicated in cancer progression with unclear mechanisms. we report here that the histone methyltransferase nsd2 drives cancer cell and tumor resistance to therapeutics such as tamoxifen",
         "overall_design": " doxorubicin",
@@ -193,7 +193,7 @@ const tamoxifenData = {
         "pubmed_id": "6-bisphosphatase"
     }, {
 
-        "gse": "gse77093",
+        "GSE_ID": "gse77093",
         "title": "smarca4 (brg) atpase mutations induce increased occupancy and activity of polycomb repressive factors on chromatin",
         "summary": "we generated a library of brg variants with mutations in conserved regions of the n-terminal atpase domain based on mutants observed in primary tumors and cancer cell lines. heterozygous expression of atpase mutants leads to increased occupancy of polycomb repressive complex 1 (prc1) at bivalent cpg-island promoters. increased prc1 binding was accompanied by increases in h3k27me3",
         "overall_design": " the mark left by the polycomb repressive complex 2 (prc2) ~2 kbp away.",
@@ -203,7 +203,7 @@ const tamoxifenData = {
         "pubmed_id": " chip was performed 72 h after treatment with either ethanol (etoh) or 0.8 um 4-hydroxytamoxifen (tam). cells expressing v5-tagged mutants of smarca4 (smarca4v5) were untreated."
     }, {
 
-        "gse": "gse83094",
+        "GSE_ID": "gse83094",
         "title": "rbyp stimulates prc1 to shape chromatin-based communication between polycomb repressive complexes [chip-seq]",
         "summary": "polycomb repressive complexes (prc)",
         "overall_design": " and their chromatin-modifying activities",
@@ -213,7 +213,7 @@ const tamoxifenData = {
         "pubmed_id": " we identify that rybp-dependent prc1 activity has a widespread role in shaping h2ak119ub1 levels genome-wide in mouse embryonic stem cells. furthermore"
     }, {
 
-        "gse": "gse83093",
+        "GSE_ID": "gse83093",
         "title": "rbyp stimulates prc1 to shape chromatin-based communication between polycomb repressive complexes [calchip-seq]",
         "summary": "polycomb repressive complexes (prc)",
         "overall_design": " and their chromatin-modifying activities",
@@ -223,7 +223,7 @@ const tamoxifenData = {
         "pubmed_id": " we identify that rybp-dependent prc1 activity has a widespread role in shaping h2ak119ub1 levels genome-wide in mouse embryonic stem cells. furthermore"
     }, {
 
-        "gse": "gse81162",
+        "GSE_ID": "gse81162",
         "title": "eprs is a critical regulator of cell proliferation and estrogen signaling in er+ breast cancer",
         "summary": "aminoacyl trna synthetases (arss) are a class of enzymes with well-conserved housekeeping functions in cellular translation.  recent evidence suggests that ars genes may participate in a wide array of cellular processes",
         "overall_design": " and may contribute to the pathology of autoimmune disease",
@@ -233,7 +233,7 @@ const tamoxifenData = {
         "pubmed_id": " we identified eprs as upregulated in estrogen receptor positive (er+) human breast tumors in the tcga and metabric cohorts"
     }, {
 
-        "gse": "gse83135",
+        "GSE_ID": "gse83135",
         "title": "rbyp stimulates prc1 to shape chromatin-based communication between polycomb repressive complexes",
         "summary": "polycomb repressive complexes (prc)",
         "overall_design": " and their chromatin-modifying activities",
@@ -243,7 +243,7 @@ const tamoxifenData = {
         "pubmed_id": " we identify that rybp-dependent prc1 activity has a widespread role in shaping h2ak119ub1 levels genome-wide in mouse embryonic stem cells. furthermore"
     }, {
 
-        "gse": "gse83134",
+        "GSE_ID": "gse83134",
         "title": "rbyp stimulates prc1 to shape chromatin-based communication between polycomb repressive complexes [rna-seq]",
         "summary": "polycomb repressive complexes (prc)",
         "overall_design": " and their chromatin-modifying activities",
@@ -253,7 +253,7 @@ const tamoxifenData = {
         "pubmed_id": " we identify that rybp-dependent prc1 activity has a widespread role in shaping h2ak119ub1 levels genome-wide in mouse embryonic stem cells. furthermore"
     }, {
 
-        "gse": "gse76851",
+        "GSE_ID": "gse76851",
         "title": "cocaine and shock labeled ribosome from mpfc",
         "summary": "activity-dependent ribosome profiling from mouse mpfc.;ribosome from cocaine and shock activated cells were immunoprecipitated using antibody. translating mrna was isolated and analyzed.",
         "overall_design": "ribosome trap mice were crossed to a arccre transgenic line. activity-dependent ribosome labeling was enabled by subjecting mice to cocaine or shock in the presence of tamoxifen. ribosome was genetically tagged with gfp in the activated cells and could be purified by immunoprecipitation.",
@@ -263,7 +263,7 @@ const tamoxifenData = {
         "pubmed_id": "na"
     }, {
 
-        "gse": "gse77646",
+        "GSE_ID": "gse77646",
         "title": "gene expression profiling of ar deletion in prostate luminal cells",
         "summary": "benign prostatic hyperplasia (bph) is a common urological disease that adversely affects quality of life among elderly males",
         "overall_design": " but its etiology remains poorly understood. we show that the expression of the androgen receptor (ar) is decreased in the luminal epithelial cells of human bph specimens and is inversely correlated with the degree of regional prostatic inflammation.",
@@ -273,7 +273,7 @@ const tamoxifenData = {
         "pubmed_id": "4"
     }, {
 
-        "gse": "gse68450",
+        "GSE_ID": "gse68450",
         "title": "embryonic sensory thalamus nuclei-specific genes revealed by genetic labelling and facs isolation",
         "summary": "to identify genes expressed in specific developing thalamic nuclei during embryonic stages",
         "overall_design": " a genetic dual labelling strategy was established to mark and isolate the cells. transcription profiles were determined for the principal sensory thalamic populations by genome-wide analysis.;we identified genes expressed in distinct thalamic nuclei with a potential function in the specification of individual sensory-modality thalamocortical connections.",
@@ -283,7 +283,7 @@ const tamoxifenData = {
         "pubmed_id": "expression profiling by array"
     }, {
 
-        "gse": "gse69674",
+        "GSE_ID": "gse69674",
         "title": "smarca4/brg1 coordinates genetic and epigenetic networks underlying shh-type medulloblastoma development",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -293,7 +293,7 @@ const tamoxifenData = {
         "pubmed_id": "27065321"
     }, {
 
-        "gse": "gse69672",
+        "GSE_ID": "gse69672",
         "title": "smarca4/brg1 coordinates genetic and epigenetic networks underlying shh-type medulloblastoma development [gene expression]",
         "summary": "medulloblastoma could be classified into four subtypes: wnt",
         "overall_design": " shh",
@@ -303,7 +303,7 @@ const tamoxifenData = {
         "pubmed_id": " and rest to regulate the expression of both oncogenes and tumor suppressors. shh-type medulloblastoma displays distinct h3k27me3 properties. we demonstrate that brg1 modulates activities of h3k27me3 modifiers to regulate expression of medulloblastoma genes. brg1 is important for the growth of a human medulloblastoma cell line and brg1-regulated pathways are conserved in human shh-type medulloblastoma. this study reveals a novel epigenetic mechanism that controls medulloblastoma development and provides a rationale for developing subtype-specific treatment strategies."
     }, {
 
-        "gse": "gse84553",
+        "GSE_ID": "gse84553",
         "title": "an essential role for the il-2 receptor in treg cell function",
         "summary": "regulatory t (treg) cells",
         "overall_design": " expressing abundant amounts of the il-2 receptor (il-2r)",
@@ -313,7 +313,7 @@ const tamoxifenData = {
         "pubmed_id": " we demonstrate that il-2 capture is dispensable for control of cd4+ t cells"
     }, {
 
-        "gse": "gse80085",
+        "GSE_ID": "gse80085",
         "title": "oviductal vs. ovarian epithelial transformation yields very different tumor phenotypes in apc fl/fl;pten fl/fl mice",
         "summary": "we treated 6-8 week old mice that had floxed alleles of both apc and pten (for both alleles in each case) that also carry an ovgp1-icre-ert2 transgene",
         "overall_design": " with one of two treatments; a third group received neither treatment. the ovgp1-icre-ert2 expresses cre recombinase fused to a tamoxifen-inducible fragment of the estrogen receptor",
@@ -323,7 +323,7 @@ const tamoxifenData = {
         "pubmed_id": " and lead to ovarian tumors (ot). ovaries were also harvested from four untreated 6-8 week old mice with the same genotype"
     }, {
 
-        "gse": "gse72190",
+        "GSE_ID": "gse72190",
         "title": "zip7 is indispensable for proliferation of intestinal epithelial cells and maintenance of intestinal stem cells",
         "summary": "intestinal epithelium are generated by intestinal stem cells",
         "overall_design": " which are recognized morphologically as slender columnar cells at the base of the crypt. stem cells produce transit-amplifying (ta) cells",
@@ -333,7 +333,7 @@ const tamoxifenData = {
         "pubmed_id": "small intestinal crypts were isolated form tamoxifen-treated control (zip7flox/+"
     }, {
 
-        "gse": "gse60501",
+        "GSE_ID": "gse60501",
         "title": "whole genome transcriptome analysis of tumor-specific cd8 t cells in pre-malignant lesions",
         "summary": "gene expression analysis of tumor-specific cd8 t cells encountering a tumor-specific antigen in pre-malignant lesions in the liver at different time points post tumor initiation. the overall goal of this mouse study was to elucidate the molecular program in tumor-specific t cells encountering a tumor-specific antigen in pre-malignant lesions. the study identifies the genes and pathways that are dysregulated in tumor-specific t cells associated with t cell unresponsiveness in tumors.;to identify the genes and pathways that are dysregulated in tumor-specific t cells. gene signatures of the following sample groups were compared:  1. naïve cd8 t cells; 2. effector cd8 t cells; 3. dysfunctional tumor-specific cd8 t cells isolated from pre-malignant lesions 8-12 days after tumor induction. 4. dysfunctional tumor-specific cd8 t cells isolated from pre-malignant lesions 32-34 days after tumor initiation.  the mouse tumor model that was used is an autochthonous",
         "overall_design": " tamoxifen-inducible liver cancer model (astxcre-ert2; ast=albumin-floxstop-sv40 large t antigen; cre-ert2 = tam-dependent cre-recombinase) in which the sv40 large t antigen serves as the oncogenic driver and tumor-specific antigen; sv40-i tcr transgenic mice",
@@ -343,7 +343,7 @@ const tamoxifenData = {
         "pubmed_id": " d8-12-pre-malignant lesions"
     }, {
 
-        "gse": "gse83966",
+        "GSE_ID": "gse83966",
         "title": "sox2 suppresses gastric tumorigenesis in mice",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -353,7 +353,7 @@ const tamoxifenData = {
         "pubmed_id": "expression profiling by high throughput sequencing;genome binding/occupancy profiling by high throughput sequencing"
     }, {
 
-        "gse": "gse83965",
+        "GSE_ID": "gse83965",
         "title": "sox2 suppresses gastric tumorigenesis in mice [chip-seq]",
         "summary": "purpose: sox2 expression marks gastric stem and progenitor cells",
         "overall_design": " raising important questions regarding the genes regulated by sox2 and the role of sox2 itself during stomach homeostasis and disease. the goal of this study is to determine the function of and the genes regulated by sox2 in the stomach.;methods: sox2 chip-enriched dna and input dna was isolated from gastric glands of adult antrum from sox2 ko and sox2 wt mice. dna was purified and genomic libraries were prepared as described (sulahian et al.",
@@ -363,7 +363,7 @@ const tamoxifenData = {
         "pubmed_id": " single-end reads) on an illumina hi-seq 2000 instrument.;results: sox2 is dispensiable for gastric stem cell self-renewal and epithelial homeostasis"
     }, {
 
-        "gse": "gse83964",
+        "GSE_ID": "gse83964",
         "title": "sox2 suppresses gastric tumorigenesis in mice [rna-seq]",
         "summary": "purpose: sox2 expression marks gastric stem and progenitor cells",
         "overall_design": " raising important questions regarding the genes regulated by sox2 and the role of sox2 itself during stomach homeostasis and disease. the goal of this study is to determine the function of and the genes regulated by sox2 in the stomach.;methods: mrna profiles of sox2 wt and sox2 ko gastric glands were generated by rna-sequencing",
@@ -373,7 +373,7 @@ const tamoxifenData = {
         "pubmed_id": " 2013). read counts over transcripts were calculated using htseq v.0.6.0 (anders et al."
     }, {
 
-        "gse": "gse83315",
+        "GSE_ID": "gse83315",
         "title": "memory of inflammation in regulatory t cells",
         "summary": "transcriptome and epigenome of treg and effector t cells in various activation states.",
         "overall_design": "rna-seq",
@@ -383,7 +383,7 @@ const tamoxifenData = {
         "pubmed_id": "85"
     }, {
 
-        "gse": "gse67172",
+        "GSE_ID": "gse67172",
         "title": "gene expression in murine colon mucosa following activation of stromal hedgehog signalling",
         "summary": "in the intestine",
         "overall_design": " hedgehog (hh) signalling orchestrates epithelial homeostasis in a bidirectional loop.  differentiated enterocytes secrete the ligand leading to active downstream signaling exclusively in the stroma.  in turn",
@@ -393,7 +393,7 @@ const tamoxifenData = {
         "pubmed_id": " leading to stroma-specific activation of downstream hh signaling."
     }, {
 
-        "gse": "gse78199",
+        "GSE_ID": "gse78199",
         "title": "basp1 modifies the tamoxifen response",
         "summary": "we report that wt1 transcriptional repressor protein basp1 interacts with oestrogen receptor alpha (era)",
         "overall_design": " and interaction which in enhanced in the presence of tamoxifen. we utilised rnaseq to identify common basp1 and era target genes as well as tamoxifen responsive genes that are altered in the absence of basp1.",
@@ -403,7 +403,7 @@ const tamoxifenData = {
         "pubmed_id": "12"
     }, {
 
-        "gse": "gse68090",
+        "GSE_ID": "gse68090",
         "title": "expression analysis of a preinvasive pancreatic cancer mouse model with and without p120 catenin",
         "summary": "pancreatic cancer is one of the most deadly cancers with a 5 year survival rate of about 5%.  therapeutic options are limited",
         "overall_design": " especially for patients that present with late state disease and metastasis.  although the metastatic burden of pancreatic cancer is usually high",
@@ -413,7 +413,7 @@ const tamoxifenData = {
         "pubmed_id": " and display features of malignancy.  similar extrusion defects are observed following p120 catenin knockdown in vitro"
     }, {
 
-        "gse": "gse84438",
+        "GSE_ID": "gse84438",
         "title": "a glimpse of natural selection of long-lived t cell clones in healthy life",
         "summary": "we designed a lineage tracing method to label a wave of t cells produced in the thymus of young. tcr repertoire analysis revealed that the lineage-tracked cd4 memory-like t cells and t regulatory cells exhibited age-dependent enrichment of shared clonotypes",
         "overall_design": " indicating that antigen matched t regulatory cells are involved in maintaining the tolerant status of long-lived t cell clones.  furthermore",
@@ -423,7 +423,7 @@ const tamoxifenData = {
         "pubmed_id": "72"
     }, {
 
-        "gse": "gse84457",
+        "GSE_ID": "gse84457",
         "title": "ascl2 acts as an r-spondin/wnt responsive switch to control stemness in intestinal crypts",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -433,7 +433,7 @@ const tamoxifenData = {
         "pubmed_id": "14"
     }, {
 
-        "gse": "gse71139",
+        "GSE_ID": "gse71139",
         "title": "rna-sequencing of tamoxifen resistant ly2 cells transfected with sirna-hoxc11.",
         "summary": "to assess the global effects of hoxc11 in endocrine resistant breast cancer cells we performed rna-seq on ly2 cells which were transfected with either sirna targeting hoxc11 (sihoxc11) or a scrambled negative control sirna (scrhoxc11) in the presence of 4-oh-tamoxifen (10-8m).  knockdown was verified by taq-man qrt-pcr prior to library preparation.  rna (10µg) was extracted using an oligotex mrna kit (qiagen) as per manufacturer’s instructions (n=4). rna was reverse transcribed followed by mrna library preparation and sequencing based on a protocol outlined by wilhelm et al.",
         "overall_design": " 2010.  sequencing was performed on an illumina genome analyzer ii (gaii) (54 million reads per sample on average).",
@@ -443,7 +443,7 @@ const tamoxifenData = {
         "pubmed_id": "expression profiling by high throughput sequencing"
     }, {
 
-        "gse": "gse84206",
+        "GSE_ID": "gse84206",
         "title": "deregulation of the prb-e2f4 axis alters epidermal homeostasis and favors tumor development",
         "summary": "e2f/rb activity is altered in most human tumors. the retinoblastoma family of proteins plays a key role in regulating the progression of the cell cycle from the g1 to s phases. this is achieved through negative regulation of e2f transcription factors",
         "overall_design": " important positive regulators of cell cycle entry. e2f family members are divided in two groups: activators (e2f1-e2f3a) and repressors (e2f3b-e2f8). e2f4 accounts for a large part of the e2f activity and is a main e2f repressor member in vivo. perturbations in the balance from quiescence towards proliferation contribute to increased mitotic gene expression levels frequently observed in cancer. we have previously reported that combined rb1-rbl1 and rb1-e2f1 ablation in epidermis produces important alterations in epidermal proliferation and differentiation",
@@ -453,7 +453,7 @@ const tamoxifenData = {
         "pubmed_id": " spontaneous wounds"
     }, {
 
-        "gse": "gse70700",
+        "GSE_ID": "gse70700",
         "title": "characterization of the molecular signature associated with the ablation of integrin a6 in iecs in the a6iec-tam mouse model",
         "summary": "transcriptome analysis of mrnas extracted from the rectal mucosa of wt and  a6iec-tam mice",
         "overall_design": " 15 days after tamoxifen treatment;inflammatory bowel diseases (ibd) in humans are characterized by chronic inflammation and gastrointestinal tissue damage",
@@ -463,7 +463,7 @@ const tamoxifenData = {
         "pubmed_id": " 4 mutant mice treated with tamoxifen and 4 mutant mice treated with nacl. the transcriptome analysis was performed using the affymetrix mouse gene 1.0 st arrays. images were processed using affymetrix genechip® command console® software (agcc) (version 2.0) and numerical values were generated using affymetrix expression console™ software (version 1.1)."
     }, {
 
-        "gse": "gse81182",
+        "GSE_ID": "gse81182",
         "title": "runx1 downregulates stem cell and megakaryocytic transcription programs that support niche interactions",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -473,7 +473,7 @@ const tamoxifenData = {
         "pubmed_id": "26"
     }, {
 
-        "gse": "gse81177",
+        "GSE_ID": "gse81177",
         "title": "gene expression analysis to identify runx1 target genes in gmp",
         "summary": "disrupting mutations of the runx1 gene are found in 10% of patients with myelodysplasia (mds) and 30% of patients with acute myeloid leukemia (aml). previous studies have revealed an increase in hematopoietic stem cells (hscs) and multipotent progenitor (mpp) cells in conditional runx1-knockout (ko) mice",
         "overall_design": " but the molecular mechanism is unresolved. we investigated the myeloid progenitor (mp) compartment in ko mice",
@@ -483,7 +483,7 @@ const tamoxifenData = {
         "pubmed_id": " and hsc and meg transcription signatures. an hsc/mpp subpopulation expressing meg markers was also increased in runx1-deficient mice. rescue experiments coupled with transcriptome analysis and runx1 dna-binding assays demonstrated that commitment is marked by runx1 suppression of genes encoding adherence and motility proteins (tek"
     }, {
 
-        "gse": "gse82073",
+        "GSE_ID": "gse82073",
         "title": "next generation sequencing of long-term hematopoietic cells (lt-hscs) with or without mutations in jak2 and ezh2",
         "summary": "comparison of mrna expression profiles of lt-hscs with or without mutations in jak2 and ezh2 by rna sequencing.;lt-hsc mrna was extracted from six different transgenic mice (sclcre",
         "overall_design": " sclcre;ezh2+/-",
@@ -493,7 +493,7 @@ const tamoxifenData = {
         "pubmed_id": " sclcre; jak2v617f;ezh2-/-) 10 weeks after tamoxifen injection.;our study represents the first detailed analysis of mrna expression profile of lt-hsc with or without mutations in jak2 and ezh2 "
     }, {
 
-        "gse": "gse82072",
+        "GSE_ID": "gse82072",
         "title": "next generation sequencing of megakaryocyte-erythrocyte progenitor cells (meps) with or without mutations in jak2 and ezh2",
         "summary": "comparison of mrna expression profiles of meps with or without mutations in jak2 and ezh2 by rna sequencing.;meps mrna was extracted from six different transgenic mice (sclcre",
         "overall_design": " sclcre;ezh2+/-",
@@ -503,7 +503,7 @@ const tamoxifenData = {
         "pubmed_id": " sclcre; jak2v617f;ezh2-/-) 10 weeks after tamoxifen injection.;our study represents the first detailed analysis of mrna expression profile of mep with or without mutations in jak2 and ezh2 "
     }, {
 
-        "gse": "gse76408",
+        "GSE_ID": "gse76408",
         "title": "single-cell rna-seq reveals distinct maturation stages of the paneth cell lineage",
         "summary": "paneth cells (pcs) are long-lived secretory cells that reside at the bottoms of small intestinal crypts. besides serving as niche cells for the neighboring lgr5-positive stem cells",
         "overall_design": " pcs secrete granules containing a broad spectrum of antimicrobial proteins",
@@ -513,7 +513,7 @@ const tamoxifenData = {
         "pubmed_id": " differential expression of a subset of defensin genes in lysozyme-high pcs"
     }, {
 
-        "gse": "gse83337",
+        "GSE_ID": "gse83337",
         "title": "genetic lineage tracing defines myofibroblast origin and function in the injured heart",
         "summary": "cardiac fibroblasts convert to myofibroblasts with injury to mediate healing after acute myocardial infarction and to mediate long-standing fibrosis with chronic disease.  myofibroblasts remain a poorly defined cell-type in terms of their origins and functional effects in vivo.;methods: here we generate postn (periostin) gene-targeted mice containing a tamoxifen inducible cre for cellular lineage tracing analysis. this postn allele identifies essentially all myofibroblasts within the heart and multiple other tissues.;results: lineage tracing with 4 additional cre-expressing mouse lines shows that periostin-expressing myofibroblasts in the heart derive from tissue-resident fibroblasts of the tcf21 lineage",
         "overall_design": " but not endothelial",
@@ -523,7 +523,7 @@ const tamoxifenData = {
         "pubmed_id": "gpl17021"
     }, {
 
-        "gse": "gse81213",
+        "GSE_ID": "gse81213",
         "title": "comparative cistromics reveals genomic crosstalk between foxa1 and era in tamoxifen-associated endometrial carcinomas",
         "summary": "tamoxifen",
         "overall_design": " which is used to treat breast cancer",
@@ -533,7 +533,7 @@ const tamoxifenData = {
         "pubmed_id": " tumor b"
     }, {
 
-        "gse": "gse82188",
+        "GSE_ID": "gse82188",
         "title": "gene expression analysis of cardiac-specific calreticulin transgenic mice",
         "summary": "investigation of global genome gene expression changes in cardiac-spcifically overexpressed calreticulin mice in 8-10 weeks-old male mice",
         "overall_design": " compared to age and gender matched control mice;the characteristics of the transgenic mice analyzed in this study are further discribed in calreticulin induces dilated cardiomyopathy",
@@ -543,7 +543,7 @@ const tamoxifenData = {
         "pubmed_id": "6"
     }, {
 
-        "gse": "gse82044",
+        "GSE_ID": "gse82044",
         "title": "expression profiling of dendritic cell (dc) progenitors from gata2 conditional knockout mice",
         "summary": "transcriptional profiling of mouse comparing in vitro-derived dc progenitors from control and gata2 conditional knockout mice. two-condition experiment",
         "overall_design": " control dcs vs. g2 knockout dcs. biological replicates: 4 control",
@@ -553,7 +553,7 @@ const tamoxifenData = {
         "pubmed_id": " the mechanism of dc differentiation is not fully understood. heterozygous germline gata2 mutations induce gata2 deficiency syndrome"
     }, {
 
-        "gse": "gse79292",
+        "GSE_ID": "gse79292",
         "title": "regulation of normal b cell differentiation and malignant b cell survival by oct2 (expression)",
         "summary": "the requirement for the b cell transcription factor oct2 (encoded by pou2f2) in germinal center b cells has proved controversial. here",
         "overall_design": " we report that germinal center b cells are formed normally after depletion of oct2 in a conditional knockout mouse but that their proliferation is reduced and in vivo differentiation to antibody-secreting plasma cells is blocked. this led us to examine the role of oct2 in germinal center derived lymphomas. shrna knockdown showed that almost all dlbcl cell lines are addicted to the expression of oct2 and its co-activator oca-b. genome-wide chromatin immunoprecipitation analysis and gene expression profiling revealed the broad transcriptional program regulated by oct2 that includes the expression of stat3",
@@ -563,7 +563,7 @@ const tamoxifenData = {
         "pubmed_id": " myc"
     }, {
 
-        "gse": "gse79482",
+        "GSE_ID": "gse79482",
         "title": "regulation of normal b cell differentiation and malignant b cell survival by oct2",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -573,7 +573,7 @@ const tamoxifenData = {
         "pubmed_id": " gpl16699"
     }, {
 
-        "gse": "gse77106",
+        "GSE_ID": "gse77106",
         "title": "whole-genome expression profiling of embryonic and monocyte-derived kupffer cells",
         "summary": "iron is an essential component of the erythrocyte protein hemoglobin and is crucial to oxygen transport in vertebrates. in the steady state",
         "overall_design": " erythrocyte production is in equilibrium with erythrocyte removal1. in various pathophysiological conditions",
@@ -583,7 +583,7 @@ const tamoxifenData = {
         "pubmed_id": " accumulate in the liver"
     }, {
 
-        "gse": "gse71713",
+        "GSE_ID": "gse71713",
         "title": "acquired tissue-specific promoter bivalency is a basis for prc2 necessity in adult somatic cells",
         "summary": "to define h3k27me3 modified genes in intestinal stem",
         "overall_design": " progenitor and epithelial cells",
@@ -593,7 +593,7 @@ const tamoxifenData = {
         "pubmed_id": " h3k4me2 and rna pol2 chip-seq analysis of isolated mouse intestinal stem cells"
     }, {
 
-        "gse": "gse75971",
+        "GSE_ID": "gse75971",
         "title": "cholesterol biosynthesis pathway as a novel mechanism of resistance to estrogen deprivation in estrogen receptor positive breast cancer",
         "summary": "therapies targeting estrogenic stimulation in estrogen receptor positive (er+) breast cancer (bc) reduce mortality",
         "overall_design": " but resistance remains a major clinical problem. molecular studies have shown few high frequency mutations to be associated with endocrine resistance. in contrast",
@@ -603,7 +603,7 @@ const tamoxifenData = {
         "pubmed_id": " recruitment of the er and creb-binding protein (cbp) to the tff1 promoter was increased upon treatment with 25-hc and 27-hc. in silico analysis of 704 primary er+ bc patients treated with adjuvant tamoxifen showed increased expression of msmo1 (p=0.047)"
     }, {
 
-        "gse": "gse68773",
+        "GSE_ID": "gse68773",
         "title": "global gene expression comparation among testes",
         "summary": " ovaries",
         "overall_design": " smad4flox/floxmercremer stra8+/- ovaries and smad4flox/floxmercremer stra8-/- ovaries",
@@ -613,7 +613,7 @@ const tamoxifenData = {
         "pubmed_id": "biological triplicates were examined at each situation. for each situation"
     }, {
 
-        "gse": "gse78843",
+        "GSE_ID": "gse78843",
         "title": "microarray analysis to unravel the function of c-terminus domain of ebf1 by replacement approach",
         "summary": "to unravel the function of c-terminus domain of ebf1",
         "overall_design": " a replacement microarray analysis was performed by transducing ebf1wt and ebf1dc expressing vectors intoa-mulv transformed pro-b (ebf1fl/fl;rertcre) cells.",
@@ -623,7 +623,7 @@ const tamoxifenData = {
         "pubmed_id": " mock-transduced cells were harvested four days after tamoxifen treatment before cell death was observed."
     }, {
 
-        "gse": "gse66814",
+        "GSE_ID": "gse66814",
         "title": "the interaction of prc2 with rna or chromatin is mutually antagonistic [rna-seq]",
         "summary": "polycomb repressive complex 2 (prc2) maintains developmental regulator genes in a repressed state through methylation of histone h3 at lysine 27 (h3k27me3) and is necessary for cell differentiation. we and others have previously found that the prc2 subunit suz12 interacts with rna in vitro and other studies have shown that ezh2 and jarid2 also possess rna binding function. the interaction of prc2 with rna has been suggested to regulate prc2 targeting or enzymatic activity",
         "overall_design": " but the rnas directly bound by prc2 in cells",
@@ -633,7 +633,7 @@ const tamoxifenData = {
         "pubmed_id": " showing it does have binding specificity in cells. rnas bound by suz12 at the 3’utr encode developmental regulator genes.  suz12 remains bound to rna upon deletion of ezh2 or jarid2 showing that it binds rna independently of other prc2 subunits. we also show that binding of suz12 to rna or chromatin is mutually inhibitory. although ezh2 and jarid2 also bind rna"
     }, {
 
-        "gse": "gse78844",
+        "GSE_ID": "gse78844",
         "title": "pioneering activity of the c-terminal domain of ebf1 shapes the chromatin landscape for b cell programming",
         "summary": "this superseries is composed of the subseries listed below.",
         "overall_design": "refer to individual series",
@@ -643,7 +643,7 @@ const tamoxifenData = {
         "pubmed_id": "expression profiling by array;genome binding/occupancy profiling by high throughput sequencing;methylation profiling by high throughput sequencing"
     }, {
 
-        "gse": "gse66831",
+        "GSE_ID": "gse66831",
         "title": "the interaction of prc2 with rna or chromatin is mutually antagonistic",
         "summary": "polycomb repressive complex 2 (prc2) modifies chromatin to maintain genes in a repressed state during development. prc2 is primarily associated with cpg islands at repressed genes and also possesses rna binding activity. however",
         "overall_design": " the rnas that bind prc2 in cells",
@@ -653,7 +653,7 @@ const tamoxifenData = {
         "pubmed_id": " prc2 binding is enriched at specific locations within rnas"
     }, {
 
-        "gse": "gse66830",
+        "GSE_ID": "gse66830",
         "title": "the interaction of prc2 with rna or chromatin is mutually antagonistic [chip-seq]",
         "summary": "polycomb repressive complex 2 (prc2) maintains developmental regulator genes in a repressed state through methylation of histone h3 at lysine 27 (h3k27me3) and is necessary for cell differentiation. we and others have previously found that the prc2 subunit suz12 interacts with rna in vitro and other studies have shown that ezh2 and jarid2 also possess rna binding function. the interaction of prc2 with rna has been suggested to regulate prc2 targeting or enzymatic activity",
         "overall_design": " but the rnas directly bound by prc2 in cells",
@@ -663,7 +663,7 @@ const tamoxifenData = {
         "pubmed_id": " showing it does have binding specificity in cells. rnas bound by suz12 at the 3’utr encode developmental regulator genes.  suz12 remains bound to rna upon deletion of ezh2 or jarid2 showing that it binds rna independently of other prc2 subunits. we also show that binding of suz12 to rna or chromatin is mutually inhibitory. although ezh2 and jarid2 also bind rna"
     }, {
 
-        "gse": "gse66829",
+        "GSE_ID": "gse66829",
         "title": "the interaction of prc2 with rna or chromatin is mutually antagonistic [iclip-seq]",
         "summary": "polycomb repressive complex 2 (prc2) maintains developmental regulator genes in a repressed state through methylation of histone h3 at lysine 27 (h3k27me3) and is necessary for cell differentiation. we and others have previously found that the prc2 subunit suz12 interacts with rna in vitro and other studies have shown that ezh2 and jarid2 also possess rna binding function. the interaction of prc2 with rna has been suggested to regulate prc2 targeting or enzymatic activity",
         "overall_design": " but the rnas directly bound by prc2 in cells",

@@ -16,7 +16,12 @@ let csvInputDir = "../csvData/in/";
 let csvOutputDir = "../csvData/out/";
 
 function processData(req, res, next) {
+
     let jsonData = req.body || {};
+
+
+    let csvInputFile = 'csvData/in/sample.csv';
+    let csvOutFile = 'csvData/out/sampleEdited.csv';
 
 
     // Handling for fixed responses for alzhiemer and tamoxifen
@@ -24,10 +29,6 @@ function processData(req, res, next) {
         const resData = (jsonData[0].data === 'alzheimer') ? alzheimerTaggedData : tamoxifenTaggedData;
         res.status(200).send(resData);
     } else {
-
-        let csvInputFile = 'csvData/in/sample.csv';
-        let csvOutFile = 'csvData/out/sampleEdited.csv';
-
         // convert json to csv -- done
         let csvData = json2csv({ data: jsonData });
 
