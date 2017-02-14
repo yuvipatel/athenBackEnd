@@ -24,22 +24,23 @@ function downloadCSV(req, res, next) {
             // download file
             res.download(fileName);
             console.log('File Downloaded')
+
+            // delete file
+            setTimeout((fileName) => {
+                fs.unLink(fileName, (err, succ) => {
+                    if (err) {
+                        console.log('Error!!');
+                    } else {
+                        console.log('File deleted!!')
+                    }
+                });
+            }, 60000);
+
         })
-        // .then((fileName) => {
-        //     // delete file
-        //     setTimeout((fileName) => {
-        //         fs.unLinkSync(fileName);
-        //     }, 600000)
-        // })
         .catch((err) => {
-        	console.log('Error downloading file!!', err);
-        	res.status(400).send('Failed to download file!!');
+            console.log('Error downloading file!!', err);
+            res.status(400).send('Failed to download file!!');
         });
-
-
-    // function downloadFile() {
-    // 	let deferred = Q.defer();
-    // }
 }
 
 module.exports = downloadCSV;
