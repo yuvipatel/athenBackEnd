@@ -6,36 +6,29 @@ const Q = require('q');
 const writeFile = promisify(fs.writeFile);
 
 /**
+ * Object to be exposed publicly
+ */
+const fileDownloader = {
+    createCSV: generateCSV,
+    downloadFile: downloadFile
+}
+
+/**
  * Converts json to csv and downloads it
  */
-function downloadCSV(req, res, next) {
-
+function generateCSV(req, res, next) {
     const jsonData = req.body;
     const fileName = `csvData/out/taggedCSV_${Date.now()}.csv`;
 
     // convert to csv
     let csvData = json2csv({ data: jsonData });
 
-    console.log('Converted to CSV!');
-
     // store in file
     writeFile(fileName, csvData)
         .then(() => {
-            // download file
-            res.download(fileName);
-            console.log('File Downloaded')
-
-            // delete file
-            setTimeout((fileName) => {
-                fs.unLink(fileName, (err, succ) => {
-                    if (err) {
-                        console.log('Error!!');
-                    } else {
-                        console.log('File deleted!!')
-                    }
-                });
-            }, 60000);
-
+            res.status(200).send({
+                fileName: fileName
+            });
         })
         .catch((err) => {
             console.log('Error downloading file!!', err);
@@ -43,4 +36,36 @@ function downloadCSV(req, res, next) {
         });
 }
 
-module.exports = downloadCSV;
+/**
+ * Download file passed in request name
+ */
+function downloadFile(req, res, next) {
+
+	console.log('Request', req.query);
+
+    let filename = req.query.filename;
+    let search = req.query.search;
+
+
+
+    res.download(filename, `GEOmAtik_${search}_GSM_${getDate()}.csv`, function(err) {
+        if (err) {
+        	console.log('Error downloading file!!', err);
+        	res.status(400).send('Error downloading file!!')
+        } else {
+        	fs.unlink(filename, (err) => {
+        		if(err) console.log('Error', err);
+        		console.log('File deleted!!');
+        	});
+        }
+    });
+};
+
+/**
+ * Returns date for Indian Locale in ddmmyyyy format
+ */
+function getDate() {
+    return new Date().toLocaleDateString('en-in').split('/').join('')
+}
+
+module.exports = fileDownloader;

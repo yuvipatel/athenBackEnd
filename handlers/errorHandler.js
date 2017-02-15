@@ -3,7 +3,7 @@ exports.errorHandler = function(err, req, res, next) {
     if (err.statusCode) {
         // Our own custom error. Send appropriate status code and error message
         let msg = err.res || err.message;
-        res.send(err.statusCode, msg);
+        res.status(err.statusCode).send(msg);
     } else {
         // Other unhandled or programming errors. Don't disclose internal details to
         // client. Simply log error message and stack to server console and send

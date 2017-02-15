@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const errorHandler = require("./handlers/errorHandler.js").errorHandler;
 const processDataHandler = require("./handlers/dataHandler.js");
 const eUtilsHandler = require('./handlers/eUtilsHandler.js');
-const downloadHandler = require('./handlers/fileDownloadHandler.js');
+const fileHandler = require('./handlers/fileDownloadHandler.js');
 const cors = require("cors");
 
 function routes(app) {
@@ -23,7 +23,9 @@ function routes(app) {
 
     app.post('/search-ncbi', eUtilsHandler);
 
-    app.post('/downlaodFile', downloadHandler);
+    app.post('/downlaodFile', fileHandler.createCSV);
+
+    app.get('/downlaodFile', fileHandler.downloadFile);
 
 }
 

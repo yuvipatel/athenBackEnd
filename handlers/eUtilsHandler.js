@@ -42,7 +42,7 @@ function getSearchResult(req, res, next) {
                 // special case for Tamoxifen
                 const tamoxifenRes = {
                     type: 'fixedResponse',
-                    queryFor: 'alzheimer',
+                    queryFor: 'tamoxifen',
                     data: jsonData
                 };
 
