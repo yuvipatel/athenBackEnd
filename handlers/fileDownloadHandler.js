@@ -41,22 +41,21 @@ function generateCSV(req, res, next) {
  */
 function downloadFile(req, res, next) {
 
-	console.log('Request', req.query);
+    console.log('Request', req.query);
 
     let filename = req.query.filename;
     let search = req.query.search;
+    let type = req.query.type;
 
-
-
-    res.download(filename, `GEOmAtik_${search}_GSM_${getDate()}.csv`, function(err) {
+    res.download(filename, `GEOmAtik_${search}_${type}_${getDate()}.csv`, function(err) {
         if (err) {
-        	console.log('Error downloading file!!', err);
-        	res.status(400).send('Error downloading file!!')
+            console.log('Error downloading file!!', err);
+            res.status(400).send('Error downloading file!!')
         } else {
-        	fs.unlink(filename, (err) => {
-        		if(err) console.log('Error', err);
-        		console.log('File deleted!!');
-        	});
+            fs.unlink(filename, (err) => {
+                if (err) console.log('Error', err);
+                console.log('File deleted!!');
+            });
         }
     });
 };
