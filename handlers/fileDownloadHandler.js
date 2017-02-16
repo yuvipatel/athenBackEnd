@@ -41,7 +41,7 @@ function generateCSV(req, res, next) {
  */
 function downloadFile(req, res, next) {
 
-    console.log('Request', req.query);
+    // console.log('Request', req.query);
 
     let filename = req.query.filename;
     let search = req.query.search;
