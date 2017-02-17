@@ -64,7 +64,15 @@ function downloadFile(req, res, next) {
  * Returns date for Indian Locale in ddmmyyyy format
  */
 function getDate() {
-    return new Date().toLocaleString().split('/').join('').substring(0, 8);
+	let today = new Date();
+
+	let date = today.getDate();
+	let month = today.getMonth() + 1;
+	let year = today.getYear() + 1900;
+
+	month = (month < 10) ? '0' + month : month;
+
+    return `${date}${month}${year}`;
 }
 
 module.exports = fileDownloader;
