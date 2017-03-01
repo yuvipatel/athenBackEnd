@@ -70,7 +70,8 @@ function getDate() {
 	let month = today.getMonth() + 1;
 	let year = today.getYear() + 1900;
 
-	month = (month < 10) ? '0' + month : month;
+    month = (month < 10) ? '0' + month : month;
+	date = (date < 10) ? '0' + date : date;
 
     return `${date}${month}${year}`;
 }
