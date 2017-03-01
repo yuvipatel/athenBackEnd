@@ -1,6 +1,7 @@
 const routes = require("./routes.js");
 const https = require('https');
 const fs = require('fs');
+const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -8,6 +9,8 @@ const app = express();
 
 app.use(bodyParser.json({limit: '5mb'}));
 app.use(bodyParser.urlencoded({limit: '5mb', extended: true}));
+
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 routes(app);
 

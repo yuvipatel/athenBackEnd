@@ -7,7 +7,6 @@ const fileHandler = require('./handlers/fileDownloadHandler.js');
 const cors = require("cors");
 
 // serve static file contents
-app.use('/static', express.static(path.join(__dirname, 'public')))
 
 function routes(app) {
     'use strict';
