@@ -10,6 +10,7 @@ const app = express();
 app.use(bodyParser.json({limit: '5mb'}));
 app.use(bodyParser.urlencoded({limit: '5mb', extended: true}));
 
+// serve static file contents
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
 routes(app);

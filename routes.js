@@ -6,7 +6,6 @@ const eUtilsHandler = require('./handlers/eUtilsHandler.js');
 const fileHandler = require('./handlers/fileDownloadHandler.js');
 const cors = require("cors");
 
-// serve static file contents
 
 function routes(app) {
     'use strict';
