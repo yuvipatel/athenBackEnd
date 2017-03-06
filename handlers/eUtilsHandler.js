@@ -14,6 +14,9 @@ function getSearchResult(req, res, next) {
     let searchData = req.body.disease ? req.body.disease + org + exp :
         req.body.drug + org + exp;
 
+    // Add GSE filter to query
+    searchData += ` "gse"[Filter]`;
+
     // TODO - Need to remove following code. This is added to handle special case of Alzheimer and Tamoxifen 
 
     // Special case of Alzheimer
@@ -61,7 +64,7 @@ function getSearchResult(req, res, next) {
             .then((d) => {
                 //supported eutil parameters can be added like this
                 // d.retstart = 5;
-                d.retmax = 100;
+                d.retmax = 50;
                 return eutils.esummary(d);
             })
             .then((d) => {
