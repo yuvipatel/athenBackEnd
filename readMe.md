@@ -23,13 +23,22 @@ SSL certificate is required to run the backend API's on HTTPS.
 create certs directory
 navigate to certs/
 
-run following command
+Follow the step 1 through 4 given at http://www.akadia.com/services/ssh_test_certificate.html
+
+Use your own values insted of values provided in instructions.
+
+In order to make SSL work across all browsers add backend API hosting server URL in place of following value
 
 ```
-openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365
+Common Name (eg, your name or your server's hostname) []: {backend API URL} 
 ```
 
-You can edit no. of days from 365 to any number.
+####Rename files 
+
+```
+cp server.crt ssl.crt
+cp server.key ssl.key
+```
 
 ### Running app
 
@@ -38,19 +47,3 @@ node start.js
 ```
 
 This will start node server on https://localhost:3000
-
-### Troubleshooting
-
-If you face any error like
-
-```
-c.context.setKey(options.key);
-                ^
-Error: error:0906A068:PEM routines:PEM_do_header:bad password read
-```
-
-run following command
-
-```
-openssl rsa -in key.pem -out newkey.pem && mv newkey.pem key.pem
-```
