@@ -16,8 +16,8 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 routes(app);
 
 https.createServer({
-    key: fs.readFileSync('./certs/key.pem'),
-    cert: fs.readFileSync('./certs/cert.pem')
+    key: fs.readFileSync('./certs/ssl.key'),
+    cert: fs.readFileSync('./certs/ssl.crt')
 }, app).listen(3000, () => {
     console.log('Example app listening on port 3000!');
 });
