@@ -73,7 +73,7 @@ function getDate() {
     month = (month < 10) ? '0' + month : month;
 	date = (date < 10) ? '0' + date : date;
 
-    return `${date}${month}${year}`;
+    return `${month}${date}${year}`;
 }
 
 module.exports = fileDownloader;
