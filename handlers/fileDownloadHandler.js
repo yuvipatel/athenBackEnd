@@ -24,7 +24,7 @@ function generateCSV(req, res, next) {
     let csvData = json2csv({ data: jsonData });
 
     // store in file
-    writeFile(fileName, csvData)
+    writeFile(fileName, csvData, 'binary')
         .then(() => {
             res.status(200).send({
                 fileName: fileName
